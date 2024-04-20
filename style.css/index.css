@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Convergence&family=Inder&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f0f2;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: #FF5588;
+}
+
+.container {
+  padding: 20px 83px;
+  display: flex;
+}
+
+.profile-data {
+  width: 19%;
+  margin-top: 40px;
+}
+
+.profile-data img {
+  width: 220px;
+  border-radius: 40px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 28px;
+  cursor: pointer;
+}
+
+.icons :hover {
+  cursor: pointer;
+  background-color: #f6f0f2;
+  transform: scale(1.5);
+}
+
+.profile-data button {
+  width: 185px;
+  margin: 0px 21px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 13px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.profile-detail {
+  padding: 10px 40px;
+}
+
+.intro h2 {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.intro h1 {
+  margin: 22px 0px;
+  font-size: 50 px;
+  font-weight: 400;
+}
+
+.work-done {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.work-done .projects {
+  text-align: center;
+}
+
+.work-done .projects h1 {
+  color: var(--primary-color);
+}
+
+.work-done .projects span {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px 10px;
+}
+
+/* About-section */
+
+.about-section {
+  margin: 90px 0px;
+}
+
+.about-section h1 {
+  margin: 30px 0px;
+}
+
+.about-section h2 {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-section p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* Career */
+
+.career-section {
+  margin: 90px 0px;
+}
+
+.career-section h2 {
+  margin: 30px 0px;
+}
+
+.career-section h1 {
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.career-section h3 {
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.freelance-design {
+  margin: 20px 0px;
+
+}
+
+.team-lead {
+  margin: 20px 0px;
+
+}
+
+.team-lead-2 {
+  margin: 20px 0px;
+
+}
+
+.study {
+  margin: 20px 0px;
+
+}
+
+.career-section span {
+  margin: 10px 0px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* Services */
+
+.services-section {
+  margin: 30px 0px;
+}
+
+.services-section h2 {
+  font-size: 20px;
+  margin: 20px 0px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.services-section h1 {
+  font-size: 25px;
+  font-weight: 420;
+
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+}
+
+.cards :hover {
+  cursor: pointer;
+  background-color: #f6f0f2;
+  transform: scale(1.1);
+}
+
+.card-one {
+  border-radius: 10px;
+  padding: 12px 30px;
+  border: 1px solid #fc8faf;
+}
+
+.card-one h2 {
+  margin: 4px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-one span {
+  font-size: 11px;
+  font-weight: 200;
+  margin: 0px 10px;
+}
+
+.card-two {
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-left: 17px;
+  border: 1px solid #1E1E1E;
+  background-color: #f6f0f2;
+}
+
+.card-two h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.card-two span {
+  font-size: 11px;
+  font-weight: 200;
+  margin: 0px 10px;
+}
+
+.card-three {
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-left: 15px;
+  border: 1px solid #1E1E1E;
+  background-color: #f6f0f2;
+}
+
+.card-three h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.card-three span {
+  font-size: 11px;
+  font-weight: 200;
+  margin: 0px 10px;
+}
+
+/* Skills-section */
+
+.skills-section {
+  margin-top: 150px;
+}
+
+
+.skills-section h2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.skills-section h1 {
+  font-size: 25px;
+  font-weight: 450;
+  margin: 10px 0px;
+}
+
+/* icons */
+
+.div-for-icons {
+  margin-top: 30px;
+}
+
+.div-for-icons :hover {
+  background-color: #f6f0f2;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.div-for-icons img {
+  margin-right: 20px;
+  width: 60px;
+  height: 52px;
+
+}
+
+/* portfolio */
+
+.portfolio-section {
+  margin-top: 150px;
+}
+
+.portfolio-section h2 {
+  margin: 10px 0px;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.portfolio-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* imgs */
+
+.img-section {
+  margin-top: 40px;
+}
+
+.img-section img {
+ width: 700px; 
+}
+
+.img-section-2 {
+  display: flex;
+}
+
+.img-section-2 img {
+  width: 344px;
+  margin: 5px 4px;
+}
+
+/* testimonial-section */
+
+.testimonial-section {
+  margin-top: 100px;
+}
+
+.testimonial-section h2 {
+  margin: 10px 0px;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.testimonial-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* Jimmy-section */
+
+.Jimmy-section {
+  margin-top: 42px;
+  border: 1px solid #1E1E1E;
+  border-radius: 30px;
+  width: 75%;
+  padding: 30px 20px;
+}
+
+.about-jimmy {
+  display: flex;
+}
+
+.text {
+  margin-left: 25px;
+  margin-top: 22px;
+}
+
+.about-jimmy h1 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.about-jimmy h2 {
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 35px;
+
+}
+
+.para {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 410;
+  line-height: 30px;
+}
+
+/* Brands section */
+
+.brands-section {
+  margin-top: 160px;
+}
+
+
+.brands-section h2 {
+  font-size: 20px;
+  font-weight: 320;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+.brands-section h1 {
+  font-size: 30px;
+  font-weight: 440;
+  margin-bottom: 30px;
+}
+
+.work-brand {
+  margin-top: 20px;
+}
+
+.work-brand :hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: #f6f0f2;
+}
+
+.work-brand img {
+  margin-top: 30px;
+}
+
+.amazon-img {
+  margin-left: 90px;
+}
+
+.nike-img {
+  margin-left: 90px;
+}
+
+.mobile-img {
+  margin-left: 90px;
+}
+
+
+/* form-section */
+
+.form-section {
+  margin-top: 210px;
+}
+
+.contact h2 {
+  font-size: 20px;
+  font-weight: 410;
+  color: var(--primary-color);
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.form-input {
+  margin-top: 30px;
+
+}
+
+.form-input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 55%;
+  border-color: #a39d9f;
+  margin-bottom: 30px;
+}
+
+.form-input label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-textarea label {
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.textarea-section textarea {
+  outline: none;
+  margin-top: 10px;
+  padding: 6px;
+  width: 55%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form-textarea button {
+  width: 185px;
+  margin: 0px 21px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 13px 20px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.Hire-btn:hover {
+  background-color: #f6f0f2;
+  cursor: pointer;
+  transform: scale(1.1);
+}
